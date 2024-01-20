@@ -3,7 +3,7 @@ This project consists on an adaptation of the Resonate-and-fire (RAF) neuron mod
 The aim is to test the capabilities of a RAF neural network on a simple task like classification of the MNIST dataset using backpropagation. 
 
 ## Content
-raf.py file contains the python code of the RAF neuron model. In the folder Examples there are simple implementations on the MNIST dataset. 
+In the folder examples there are simple implementations on the MNIST dataset along with the code of the RAF neuron model inside the folder neuron raf.py. 
 
 ## Results MNIST
 A simple 3-layer fully-connected RAF neural network of dimensions 784-1000-10, 'frequency=30' and 'beta=0.99' with a rate encoded input along 25 time steps, obtained a maximum test accuracy of 94.66% after 25 epochs.
